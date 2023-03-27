@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HICET</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <section class="welcome">
+        <div class="overlay"></div>
+        <h1>Cyberknots 2k23</h1>
+      </section>
+
+      <section>
+        <h1 class="p-3 m-0 text-center events-title">Events</h1>
+        <div id="events">
+          <div id="tech-events">
+            <h3>Technical Events</h3>
+            <ul>
+              <li class="event">Paper Presentation</li>
+              <li class="event">Project Expo</li>
+              <li class="event">UI Design</li>
+              <li class="event">Technical Quiz</li>
+              <li class="event">Code Debugging</li>
+              <li class="event">Competitive Coding</li>
+              <li class="event">PC Building</li>
+            </ul>
+          </div>
+          <div id="non-tech-events">
+            <h3>Non Technical Events</h3>
+            <ul>
+              <li class="event">Gaming</li>
+              <li class="event">Movie Quiz</li>
+              <li class="event">Connexion</li>
+              <li class="event">Marvel/DC Quiz</li>
+              <li class="event">Anime Quiz</li>
+              <li class="event">Poster Design</li>
+              <li class="event">Chess</li>
+              <li class="event">Carrom</li>
+              <li class="event">Singing</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div id="register" class="m-5">
+        <form action="">
+          <label for="name">Name <sup class="req">*</sup></label>
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            id="name"
+            required
+          />
+          <br />
+          <label for="email">Email <sup class="req">*</sup></label>
+          <input
+            class="form-control"
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+          <br />
+          <label for="whatsapp">Whatsapp Number <sup class="req">*</sup></label>
+          <input
+            class="form-control"
+            type="text"
+            name="whatsapp"
+            id="whatsapp"
+            required
+          />
+          <br />
+          <label for="college">College Name <sup class="req">*</sup></label>
+          <input
+            class="form-control"
+            type="text"
+            name="college"
+            id="college"
+            required
+          />
+          <br />
+          <label for="referral"
+            >Referral ID <sup class="req">(optional)</sup></label
+          >
+          <input
+            class="form-control"
+            type="text"
+            name="referral"
+            id="referral"
+          />
+          <br />
+          <label for="event-choice" aria-required="true"
+            >Events (Select Upto 3 events) <sup class="req">*</sup>
+          </label>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
